@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Ask Me Anything</title>
+  <title>Always an Answer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
@@ -50,9 +50,8 @@
       background-color: #007BFF;
       color: white;
       border: none;
-      margin-left: 5px;
+      margin-top: 10px;
       transition: background-color 0.3s ease;
-      display: inline-block;
     }
 
     button:hover {
@@ -79,28 +78,29 @@
   </style>
 </head>
 <body>
+
+  <!-- ✅ LOGO IMAGE -->
+  <img src="logo.png" alt="Site Logo" style="width:150px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
+
   <h1>Always an Answer</h1>
 
   <p class="description">
     The purpose of the site is to give answers about Christianity, The Bible, and Jesus. So far, there are two people running this site, God bless!
   </p>
 
+  <!-- ✅ QUESTION FORM -->
   <form action="https://formspree.io/f/myzjlyqg" method="POST">
     <input type="text" name="question" placeholder="Type your question here..." required />
     <input type="email" name="email" placeholder="Your email" required />
-
-    <!-- Optional: redirect after submission -->
-    <input type="hidden" name="_redirect" value="https://example.com/thank-you.html" />
-
-    <!-- Optional: email subject -->
     <input type="hidden" name="_subject" value="New Question from Website" />
-
+    <input type="hidden" name="_redirect" value="https://example.com/thank-you.html" />
     <button type="submit">Send</button>
   </form>
 
+  <!-- ✅ DONATION AREA -->
   <div class="donate">
     <p>If you'd like to support me, you can donate via Cash App:</p>
-    <a href="https://cash.app/$JMacias100" target="_blank" rel="noopener noreferrer">Donate on Cash App</a>
+    <a href="https://cash.app/$JMacias100" target="_blank">Donate on Cash App</a>
   </div>
 </body>
 </html>
