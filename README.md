@@ -99,7 +99,7 @@
   </form>
 
   <div class="donate">
-    <p>If you'd like to support me, you can donate via Cash App:</p>
+    <p>If you'd like to support us, you can donate via Cash App:</p>
     <a href="https://cash.app/$JMacias100" target="_blank" rel="noopener noreferrer">Donate on Cash App</a>
   </div>
 </body>
